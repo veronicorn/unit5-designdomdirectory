@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Employee Directory</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class='navheader'>
+            <div id='directoryIcon'>
+                <i class="fas fa-address-book"></i>
+            </div>
+            <br><a href='index.html'>SIMPLICITY</a>
+        </div>
+
+        <UL><br>
+            <li id='print'>PRINT</li>
+            <li id='verify'>VERIFY</li>
+            <li id='lookup'>LOOKUP</li>
+            <li id='contains'>CONTAINS</li>
+            <li id='update'>UPDATE</li>
+            <li id='add'>ADD</li>
+            <li id='delete'>DELETE</li>
+        </UL>
+    </nav>
+
+    <main>
+
+        <div class='welcome'>
+            WELCOME TO
+            <font color="#fae362">SIMPLICITY</font>
+
+            <br><br>
+            <div id='subtext'>
+                The Minimalists Directory.
+            </div>
+        </div>
+
+        <form>
+            <input type="text" id="input" placeholder="Name">
+            <input type="text" id="office" placeholder="Office Number">
+            <input type="text" id="phone" placeholder="Phone Number">
+            <button type="submit" id="submit">Submit</button>
+        </form>
+
+        <section id='displaycontent'></section>
+
+    </main>
+
+    <script src="dom.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
