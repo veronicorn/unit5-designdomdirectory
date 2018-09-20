@@ -46,14 +46,28 @@
             </div>
         </div>
 
-        <form>
-            <input type="text" id="input" placeholder="Name">
-            <input type="text" id="office" placeholder="Office Number">
-            <input type="text" id="phone" placeholder="Phone Number">
-            <button type="submit" id="submit">Submit</button>
-        </form>
+        <div class='verifyPage hide'>
+            <form>
+                <input type='text' class='verifyInput line' placeholder='Verify an Employee' autocomplete='off' />
+                <button type='verifyBtn'>Submit</button>
+            </form>
+        </div>
 
-        <section id='displaycontent'></section>
+        <div class='lookupPage hide'>
+            <form>
+                <input type='text' class='verifyInput line' placeholder='Look up an Employee' autocomplete='off' />
+                <button type='lookupBtn'>Submit</button>
+            </form>
+        </div>
+
+        <div class='containsPage hide'>
+                <form>
+                    <input type='text' class='containsInput line' placeholder='Look up Every Employee That Contains...' autocomplete='off' />
+                    <button type='containsBtn'>Submit</button>
+                </form>
+            </div>
+
+        <section class='displaycontent'></section>
 
     </main>
 

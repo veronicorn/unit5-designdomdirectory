@@ -40,9 +40,9 @@ a {
     text-decoration: none;
 }
 
-input {
+/* input {
     display: none;
-}
+} */
 
 .show {
     display: block;
@@ -81,3 +81,6 @@ main {
     font-weight: normal;
 }
 
+.hide {
+    display: none;
+}
